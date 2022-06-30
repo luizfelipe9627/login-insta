@@ -9,34 +9,34 @@ ul {
   justify-content: center;
   list-style: none;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 5px;
-  padding: 0px;
+  margin-top: 3.125rem;
+  margin-bottom: 0.3125rem;
+  padding: 0;
 }
 
 li {
-  margin: 8px;
-  font-size: 11.5px;
+  margin: 0.5rem;
+  font-size: 0.7188rem;
 }
 
 li a {
-  color: var(--gray2);
+  color: #A1A1A1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .lista2 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .lista2 img {
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 
 @media (min-width: 320px ) and (max-width:767px) {
   body {
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   footer {
@@ -44,6 +44,6 @@ li a {
   }
 
   ul {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 }

@@ -1,19 +1,19 @@
 .container-login {
   text-align: center;
-  height: 560px;
-  width: 350px;
-  margin-left: 30px;
+  height: 35rem;
+  width: 21.875rem;
+  margin-left: 1.875rem;
 }
 
 .logo-instagram {
-  padding: 24px 0 30px 0;
+  padding: 0.625rem 0 0.625rem 0;
 }
 
 .instagram {
-  background-color: var(--white1);
-  border: 1px solid var(--gray1);
-  margin-bottom: 10px;
-  padding: 20px;
+  background-color: #FFFFFF;
+  border: 0.0625rem solid #DBDBDB;
+  margin-bottom: 0.625rem;
+  padding: 1.25rem;
 }
 
 form {
@@ -22,26 +22,26 @@ form {
 }
 
 input {
-  width: 250px;
-  height: 20px;
-  padding: 8px;
+  width: 15.625rem;
+  height: 1.25rem;
+  padding: 0.5rem;
   outline: none;
-  border: 1px solid var(--gray1);
-  background-color: var(--white2);
+  border: 0.0625rem solid #DBDBDB;
+  background-color: #FAFAFA;
 }
 
 input[type="email"] {
-  margin-bottom: 5px;
+  margin-bottom: .3125rem;
 }
 
 button {
-  color: var(--white1);
-  background-color: var(--blue1);
+  color: #FFFFFF;
+  background-color: #0095F6;
   font-weight: bold;
-  margin: 15px 0 15px 0;
-  width: 257px;
-  height: 28px;
-  border-radius: 4px;
+  margin: 0.9375rem 0 .9375rem 0;
+  width: 16.0625rem;
+  height: 1.75rem;
+  border-radius: 0.25rem;
   border: none;
   cursor: pointer;
 }
@@ -53,53 +53,54 @@ button {
 }
 
 .tracinho {
-  color: var(--gray1);
+  color: #DBDBDB;
 }
 
 .palavra-ou {
-  margin: 0 18px 0 18px;
-  font-size: 12.5px;
+  margin: 0 1.125rem 0 1.125rem;
+  font-size: 0.7813rem;
   font-weight: bold;
-  color: var(--gray3);
+  color: #929292;
 }
 
 .icone-texto {
   display: flex;
   justify-content: center;
+  align-self: stretch;
   text-align: center;
-  margin: 20px 0 10px 0;
+  margin: 1.25rem 0 1.25rem 0;
 }
 
 .texto-entrar {
-  margin-left: 7px;
+  margin-left: 0.4375rem;
 }
 
 .icone-texto a {
-  color: var(--blue2);
+  color: #475E85;
   text-align: center;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .recuperar-senha {
-  color: var(--blue3);
-  font-size: 11.5px;
+  color: #00376B;
+  font-size: 0.7188rem;
 }
 
 .criar-conta {
-  padding: 10px;
-  background-color: var(--white1);
-  border: 1px solid var(--gray1);
-  font-size: 14px;
+  padding: 0.625rem;
+  background-color: #FFFFFF;
+  border: 0.0625rem solid #DBDBDB;
+  font-size: 0.875rem;
 }
 
 .criar-conta a {
-  color: var(--blue4);
+  color: #1EA1F7;
 }
 
 .baixar-app p {
-  font-size: 14px;
-  margin: 20px;
+  font-size: .875rem;
+  margin: 1.25rem;
   color: #262626;
 }
 
@@ -109,7 +110,7 @@ button {
 }
 
 .apple-store {
-  margin-right: 6px;
+  margin-right: .375rem;
 }
 
 @media (min-width: 320px ) and (max-width:767px) {
@@ -123,7 +124,7 @@ button {
   }
 
   .instagram {
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .instagram, .criar-conta {
@@ -131,7 +132,7 @@ button {
   }
 
   .logo-instagram {
-    padding-top: 10px ;
+    padding-top: 0.625rem ;
   }
 
   input, button {

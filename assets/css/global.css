@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  padding: 36px;
-  background-color: var(--white1);
+  padding: 2.25rem;
+  background-color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,19 +19,7 @@ main {
   align-items: center;
 }
 
-:root {
-  --gray1: #DBDBDB;
-  --gray2: #A1A1A1;
-  --gray3: #929292;
-  --white1: #FFFFFF;
-  --white2: #FAFAFA;
-  --blue1: #0095F6;
-  --blue2: #475E85;
-  --blue3: #00376B;
-  --blue4: #1EA1F7;
-}
-
 ::placeholder {
-  font-size: 11.5px;
-  color: var(--gray2);
+  font-size: 0.7188rem;
+  color: #A1A1A1;
 }
