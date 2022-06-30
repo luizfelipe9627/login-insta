@@ -1,0 +1,140 @@
+.container-login {
+  text-align: center;
+  height: 560px;
+  width: 350px;
+  margin-left: 30px;
+}
+
+.logo-instagram {
+  padding: 24px 0 30px 0;
+}
+
+.instagram {
+  background-color: var(--white1);
+  border: 1px solid var(--gray1);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid var(--gray1);
+  background-color: var(--white2);
+}
+
+input[type="email"] {
+  margin-bottom: 5px;
+}
+
+button {
+  color: var(--white1);
+  background-color: var(--blue1);
+  font-weight: bold;
+  margin: 15px 0 15px 0;
+  width: 257px;
+  height: 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.ou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracinho {
+  color: var(--gray1);
+}
+
+.palavra-ou {
+  margin: 0 20px 0 20px;
+  font-size: 12.5px;
+  font-weight: bold;
+  color: var(--gray3);
+}
+
+.icone-texto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.texto-entrar {
+  margin-left: 7px;
+}
+
+.icone-texto a {
+  color: var(--blue2);
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.recuperar-senha {
+  color: var(--blue3);
+  font-size: 11.5px;
+}
+
+.criar-conta {
+  padding: 10px;
+  background-color: var(--white1);
+  border: 1px solid var(--gray1);
+  font-size: 14px;
+}
+
+.criar-conta a {
+  color: var(--blue4);
+}
+
+.baixar-app p {
+  font-size: 14px;
+  margin: 20px;
+  color: #262626;
+}
+
+.stores {
+  display: flex;
+  justify-content:center;
+}
+
+.apple-store {
+  margin-right: 6px;
+}
+
+@media (min-width: 320px ) and (max-width:767px) {
+  .container-celular {
+    display: none;
+  }
+
+  .container-login {
+    width: 90vw;
+    margin-left: 0;
+  }
+
+  .instagram {
+    padding: 10px;
+  }
+
+  .instagram, .criar-conta {
+    border: none;
+  }
+
+  .logo-instagram {
+    padding-top: 10px ;
+  }
+
+  input, button {
+    width: 70vw;
+  }
+}
