@@ -6,10 +6,12 @@
 ## 📄 Descrição
 Clonei a pagina inicial de login do Instagram, foi usado HTML5 e CSS3 e o layout esta totalmente resposivo a qualquer dispositivo.
 
-## 📑 Observação
-Este layout foi basedo na pagina de login do Instagram.
+### <a href="https://luizfelipe9627.github.io/login-instagram">Acesse o site</a>
 
-### <a href="https://instagram.com">Acesse o site</a>
+## 🔍 Layout
+Este layout foi criado pelo Instagram.
+
+### <a href="https://instagram.com">Acesse o layout</a>
 
 ## 💻 Tecnologias utilizadas
 
