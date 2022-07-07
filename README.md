@@ -1,4 +1,4 @@
-# Login Page Layout
+# Login Page Instagram
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
 <img src="https://github.com/luizfelipe9627/login-instagram/blob/master/assets/image/login-instagram.png" alt="Apresentação do projeto">
@@ -6,7 +6,7 @@
 ## 📄 Descrição
 Clonei a pagina inicial de login do Instagram, foi usado HTML5 e CSS3 e o layout esta totalmente responsivo a qualquer dispositivo.
 
-### <a href="https://luizfelipe9627.github.io/login-instagram">Acesse o site</a>
+### <a href="https://luizfelipe9627-login-insta.netlify.app">Acesse o site</a>
 
 ## 🔍 Layout
 Este layout foi criado pelo Instagram.
