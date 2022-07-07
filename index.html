@@ -11,69 +11,91 @@
 
   <body>
     <main>
-      <article class="container-celular" aria-label="Área da foto do celular">
+      <article class="container-celular" aria-label="Foto do celular">
         <div class="celular">
           <img src="./assets/image/instagram-celular.webp" width="380" height="583px" alt="Celular">
         </div>
       </article>
 
-      <article class="container-login" aria-label="Área de login">
+      <article class="container-login" aria-label="Login">
         <div class="instagram">
           <div class="logo-instagram">
             <img src="./assets/image/instagram-logo.webp" width="175" height="98" alt="Logo do Instagram">
           </div>
 
           <div class="login">
-            <form>
-              <label>
+            <form action="./index.html" method="get" id="login">
+              <label for="login">
                 <input type="email" placeholder="Telefone, nome de usuário ou email" required>
               </label>
 
-              <label>
+              <label for="login">
                 <input type="password" placeholder="Senha" required>
               </label>
 
-              <label>
-                <button type="submit">Entrar</button>
+              <label for="login">
+                <button type="submit">
+                  Entrar
+                </button>
               </label>
             </form>
 
             <div class="ou">
-              <div class="tracinho">&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;</div>
-              <div class="palavra-ou">OU</div>
-              <div class="tracinho">&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;</div>
+              <div class="tracinho">
+                &#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;
+              </div>
+
+              <div class="palavra-ou">
+                OU
+              </div>
+
+              <div class="tracinho">
+                &#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;&#150;
+              </div>
             </div>
         
             <div class="entrar-face">
               <div class="icone-texto">
                 <div class="icone-face">
-                  <a href="#"><img src="./assets/image/facebook-icon.webp" width="16" height="16" alt="Ícone do Facebook"></a>
+                  <a href="#facebook">
+                    <img src="./assets/image/facebook-icon.webp" width="16" height="16" alt="Ícone do Facebook">
+                  </a>
                 </div>
 
                 <div class="texto-entrar">
-                  <a href="#"> Entrar com o Facebook</a>
+                  <a href="#facebook"> 
+                  Entrar com o Facebook</a>
                 </div>
               </div>
 
-              <a href="#" class="recuperar-senha">Esqueceu a senha?</a>
+              <a href="#recuperar" class="recuperar-senha">Esqueceu a senha?</a>
             </div>
           </div>
         </div>
 
         <div class="criar-conta">
-          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+          <p>
+            Não tem uma conta? 
+            <a href="#cadastrar">Cadastre-se</a>
+          </p>
         </div>
 
         <div class="baixar-app">
-          <p>Obtenha o aplicativo.</p>
+          <p>
+            Obtenha o aplicativo.
+          </p>
 
           <div class="stores">
             <div class="apple-store">
-              <a href="#"><img src="./assets/image/applestore-button.webp" width="140" height="41" alt="Baixar na Apple Store" aria-label="Baixar o Instagram na Apple Store"></a>
+              <a href="#apple-store">
+                <img src="./assets/image/applestore-button.webp" width="140" height="41" alt="Baixar na Apple Store" aria-label="Baixar o Instagram na Apple Store">
+              </a>
             </div>
   
             <div class="google-play">
-              <a href="#"><img src="./assets/image/googleplay-button.webp" width="140" height="41" alt="Baixar na Google Play" aria-label="Baixar o Instagram na Google Play"></a>
+              <a href="#google-play">
+                <img src="./assets/image/googleplay-button.webp" width="140" height="41" alt="Baixar na Google Play" aria-label="Baixar o Instagram na Google Play">
+              </a>
             </div>
           </div>
         </div>
@@ -82,30 +104,126 @@
     
     <footer>
       <ul class="lista1">
-        <li><a href="#">Meta</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Carreiras</a></li>
-        <li><a href="#">Ajuda</a></li>
-        <li><a href="#">API</a></li>
-        <li><a href="#">Privacidade</a></li>
-        <li><a href="#">Termos</a></li>
-        <li><a href="#">Principais contas</a></li>
-        <li><a href="#">Hashtags</a></li>
-        <li><a href="#">Localizações</a></li>
-        <li><a href="#">Instagram Lite</a></li>
-        <li><a href="#">Carregamento de contas e não usuários</a></li>
+        <li>
+          <a href="#meta">
+            Meta
+          </a>
+        </li>
 
-        <li><a href="#">Dança</a></li>
-        <li><a href="#">Comida e bebida</a></li>
-        <li><a href="#">Casa e jardim</a></li>
-        <li><a href="#">Músicas</a></li>
-        <li><a href="#">Artes visuais</a></li>
+        <li>
+          <a href="#sobre">
+            Sobre
+          </a>
+        </li>
+
+        <li>
+          <a href="#log">
+            Blog
+          </a>
+        </li>
+        
+        <li>
+          <a href="#carreiras">
+            Carreiras
+          </a>
+        </li>
+
+        <li>
+          <a href="#ajuda">
+            Ajuda
+          </a>
+        </li>
+
+        <li>
+          <a href="#api">
+            API
+          </a>
+        </li>
+
+        <li>
+          <a href="#privacidade">
+            Privacidade
+          </a>
+        </li>
+
+        <li>
+          <a href="#termos">
+            Termos
+          </a>
+        </li>
+
+        <li>
+          <a href="#principais-contas">
+            Principais contas
+          </a>
+        </li>
+
+        <li>
+          <a href="#hashtags">
+            Hashtags
+          </a>
+        </li>
+
+        <li>
+          <a href="#localizacoes">
+            Localizações
+          </a>
+        </li>
+
+        <li>
+          <a href="#lite">Instagram Lite</a>
+        </li>
+
+        <li>
+          <a href="#contas">
+            Carregamento de contas e não usuários
+          </a>
+        </li>
+
+        <li>
+          <a href="#danca">
+            Dança
+          </a>
+        </li>
+
+        <li>
+          <a href="#comida-e-bebida">
+            Comida e bebida
+          </a>
+        </li>
+
+        <li>
+          <a href="#-casa-e-jardim">
+            Casa e jardim
+          </a>
+        </li>
+
+        <li>
+          <a href="#musicas">
+            Músicas
+          </a>
+        </li>
+
+        <li>
+          <a href="#artes">
+            Artes visuais
+          </a>
+        </li>
       </ul>
 
       <ul class="lista2">
-        <li><a href="#">Português(Brasil)<img src="./assets/image/dropdown.svg" width="13" height="13" alt="Seta de dropdown"></a></li>
-        <li><a href="#">© 2022 Instagram from Meta</a></li>
+        <li>
+          <a href="#idioma">
+            Português(Brasil)
+            <img src="./assets/image/dropdown.svg" width="13" height="13" alt="Seta de dropdown">
+          </a>
+        </li>
+
+        <li>
+          <a href="#copyright">
+            © 2022 Instagram from Meta
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
